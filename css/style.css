@@ -1,0 +1,73 @@
+/*
+	COLOR PALLETE
+	
+	base - 5A061B
+	dark - 242328
+	heavy - A51638
+	light - C03C5A
+	lighter - F41E44	
+
+*/
+
+/*fonts*/
+@font-face { font-family: roboto; src: url('../fonts/roboto/Roboto-Light.ttf'); } 
+/*@font-face { font-family: roboto; font-weight: bold; src: url('Delicious-Bold.otf');}*/
+
+body{ 
+	margin: 0; 
+	font-family: roboto, Geneva, sans-serif;
+	color: #242328;
+}
+
+.container{ width: 1024px; margin: 0 auto; clear: both; }
+	
+/*TOP BAR*/
+#topbar{ display: flex; background-color: #5A061B; color: #fff; }
+#topbar .topbar-left{ float: left; width: 50%; }
+#topbar .topbar-left h3{ margin: 14px 120px; font-size: 23px; font-weight: normal; }
+#topbar .topbar-left .logo{ width: 100px; position: absolute; top: 15px; }
+#topbar .topbar-right{ float: right; width: 50%; text-transform: uppercase; text-align: right; }
+#topbar .topbar-right p{ margin-top: 20px; }
+#topbar .topbar-right p span a{ margin-left: 20px; text-decoration: none; color: #fff; font-size: 15px; }
+#topbar p span a:hover{ color: #F41E44; }
+
+/*BANNER*/
+#banner{ min-height: 400px; background-image: url('../images/banner.png'); background-size: cover; background-repeat: no-repeat; }
+
+/*MENU*/
+#menu{ background-color: #5A061B; display: flex; }
+#menu ul{ list-style-type: none; margin: 0; padding: 0; text-align: center; }
+#menu ul li{ display: inline-block; padding: 16px 25px; }
+#menu ul li:last-child{ border-right: none; }
+#menu ul li:hover{ background-color: #F41E44; }
+#menu ul li a{ text-decoration: none; color: #fff; font-size: 20px; }
+
+/*WELCOME*/
+#welcome{ text-align: center; }
+#welcome h1{ font-size: 50px; font-weight: bold; margin-bottom: 0; }
+#welcome h2{ font-size: 20px; font-weight: normal; line-height: 30px; }
+.welcome-separator{ width: 60%; border-bottom: 1px solid rgb(202, 202, 202); margin: 35px auto; }
+
+/*OUR WORKS*/
+#our-works .works .item{ width: 32%; margin: 20px 0.6%; float: left; }
+#our-works .works .item img{ width: 100%; }
+
+
+/*SOME TEXT*/
+
+
+/*FOOTER*/
+footer{ background-color: #5A061B; display: flex; color: #fff; }
+footer .copyright{ float: left; width: 40%; }
+footer .social{ float: right; width: 40%; padding: 20px 0px; text-align: right; }
+footer .social span{ padding-right: 12px; }
+footer .social span a{ color: #fff; text-decoration: none; }
+
+/*SOCIAL MEDIA*/
+footer .social span.facebook a:hover{ color: #3b5998; }
+footer .social span.twitter a:hover{ color: #4099FF; }
+footer .social span.gplus a:hover{ color: #DF4B38; }
+footer .social span.pinterest auto:hover{ color: #D73532; }
+
+
+
